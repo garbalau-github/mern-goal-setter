@@ -1,16 +1,15 @@
 {
   "name": "mern-tutorial",
   "version": "1.0.0",
-  "description": "Goalsetter app for youtube tutorial",
+  "description": "Goalsetter",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Brad Traversy",
+  "author": "Nick Garbalau",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
