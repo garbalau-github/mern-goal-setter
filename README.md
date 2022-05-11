@@ -1,4 +1,5 @@
 # mern-goal-setter
 
-Goal Setter made with help of React on front-end and Node.js with Express on back-end. 
+Goal Setter application made with React on FE side and Node together with Express on BE side.
+
 Also provided with REST-API and usage of JWT
